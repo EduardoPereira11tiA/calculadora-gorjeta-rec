@@ -119,7 +119,7 @@
 
     .resultados{
         background-color: var(--green-800);
-        border-radius: 8.9375rem;
+        border-radius: 1.7rem;
         padding: 1.5rem;
     }
 
@@ -148,5 +148,21 @@
 
     .resultados .gorjeta-total{
         margin-bottom: 1.25rem;
+    }
+
+    .resultados .total{
+        margin-bottom: 2rem;
+    }
+
+    .resultados button{
+        width: 100%;
+        background: var(--light-green);
+        border: none;
+        border-radius: 0.3125rem;
+        color: var(--green-800);
+        font-weight: 700;
+        text-decoration: uppercase;
+        font-size: 1.25;
+        padding-block: 0.5rem;
     }
     
