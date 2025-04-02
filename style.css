@@ -74,4 +74,12 @@
         outline: 2px solid var(--light-green);
     }
 
-    .gorjeta
+    .gorjeta div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .gorjeta #outra {
+        width: 100%;
+    }
