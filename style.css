@@ -119,13 +119,13 @@
 
     .resultados{
         background-color: var(--green-800);
-        border-radius: 1.7rem;
-        padding: 1.5rem;
+        border-radius: 1.5rem;
+        padding: 2.4rem;
     }
 
     .resultados div {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -164,5 +164,24 @@
         text-decoration: uppercase;
         font-size: 1.25;
         padding-block: 0.5rem;
+    }
+
+    @media(min-whidth: 920px) {
+        main {
+            display: flex;
+            gap: 3rem;
+            padding: 3rem;
+            border-radius: 1.5625rem;
+            max-width: 57.5rem;
+            margin-inline: auto;
+        }
+
+        main section {
+            width: 100%;
+        }
+
+        .gorjeta div{
+            grid-template-columns: 1fr 1fr 1fr ;
+        } 
     }
     
